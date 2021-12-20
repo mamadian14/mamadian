@@ -1,0 +1,118 @@
+body{
+	font-family: 'century Gothic',calibri,serif;
+	font-size: 13px;
+	margin: 0px;
+	padding:0px;
+}
+ 
+ div{
+ 	text-align: center;
+ 	font-size: 40px;
+ }
+
+ header{
+ 	height: 100px;
+ }
+
+ footer{
+ 	height: 80px;
+ 	padding-top: 30px;
+ 	text-align: center;
+ 	background-color:#e21313;
+ 	border-top:2px soli #AAA;
+ }
+ .f{
+ 	color: white;
+ }
+
+ nav{
+ 	width: 100%;
+ 	background:black;
+
+ }
+
+ nav ul{
+ 	margin:0px;
+ 	padding :0px;
+ }
+ nav li{
+ 	list-style-type: none;
+ 	float: left;
+ }
+
+ nav a{
+ 	display: inline-block;
+ 	text-decoration: none;
+ 	padding: 20px 30px;
+ 	color: white;
+ 	text-transform: uppercase;
+ 	font-size: 15px; 
+ }
+ .di{
+ 	display: table;
+ 	margin: 0 auto;
+ 
+ }
+
+ /*couleur au menu*/
+
+ .acc:hover{
+ 	border-top: 5px solid #4C8;
+ 	background-color: rgba(64,200,130,0.15);
+ }
+.marq:hover{
+	border-top: 5px solid #f1dc4f;
+	background-color: rgba(241,211,79,0.15);
+}
+.car:hover{
+	border-top: 5px solid #0070bb;
+	background-color: rgba(000,112,192,0.15);
+}
+.conn:hover{
+	border-top: 5px solid #c44d26;
+	background-color: rgba(228,77,38,0.15);
+}
+
+/*CARRIERE*/
+.paradiv{
+	
+	font-size: 20px;
+	text-align: left;
+	margin: 50px;
+	padding: 10px;
+	color: white;
+}
+
+.imagecar{
+	width: 
+}
+
+/*diaporama*/
+
+.diaporama{
+	margin: 0 auto;
+	width: 1349px;
+	height: 500px;
+	background-image: url("diaporama/imagem.jpg");
+
+	webkit-animation-name:diaporama;
+	webkit-animation-duration:15s;
+	webkit- animation-timing-function:linear;
+	webkit-animation-iteration-count:infinite;
+	webkit-animation-direction:normal;
+
+	animation-name:diaporama;
+	animation-duration:15s;
+	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+	animation-direction:normal;
+}
+@-webkit-keyframes diaporama{
+	0%{background-image: url("diaporama/image5.jpg");}
+	33%{background-image: url("diaporama/image2.jpg");}
+	66%{background-image: url("diaporama/image3.jpg");}
+
+/*formulaire*/
+
+
+
